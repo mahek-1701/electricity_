@@ -41,3 +41,15 @@ Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\
 Requirement already satisfied: referencing>=0.28.4 in c:\users\pc\appdata\local\programs\python\python311\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
 Requirement already satisfied: rpds-py>=0.7.1 in c:\users\pc\appdata\local\programs\python\python311\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.26.0)
 Requirement already satisfied: six>=1.5 in c:\users\pc\appdata\local\programs\python\python311\lib\site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+
+import streamlit as st                                                  
+
+      2 import pandas as pd                                                     
+
+  ❱   3 import plotly.express as px                                             
+
+      4 import plotly.graph_objects as go                                       
+
+      5 from datetime import datetime, timedelta                                
+
+      6 import json      
